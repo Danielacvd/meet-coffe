@@ -1,0 +1,188 @@
+body {
+  text-align: center;
+  color: #000f08;
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+}
+/* para resetear las dimensiones de todos los elementos de la pagina */
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.oscuro {
+  background: #000f08;
+  color: white;
+}
+
+
+.oscuro a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: white;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+
+.hero-section {
+  text-align: right;
+  background-image: url('../img/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+/* para hacer la separacion entre la secciones  */
+section, footer {
+  margin-top: 4.6875rem;
+}
+footer{
+  padding: 3.125rem;
+}
+
+.charla-text, .eventos {
+  display: inline-block;
+}
+.centrado {
+  width: 75%;
+}
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+
+}
+.charla-text{
+  width: 70%;
+  vertical-align: middle;
+  margin-left: 5%;
+  white-space: nowrap;
+}
+.eventos{
+  width: 30%;
+}
+.imgeventos{
+  width: 70%;
+}
+
+/* Para asignar el peso de cada font , 400 700 y 800 */
+h1{
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+h2{
+  font-weight: 700;
+  font-size: 2.5em;
+}
+h3{
+  font-size: 2em;
+}
+h4{
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.25em;
+}
+.subtitulos, h4 ,h5{
+  font-weight: 400;
+}
+nav{
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+/* Con esto la imagen svg queda en donde queramos, pero queda negra , entonces tenemos que hacer.... es rellenarla de blanco con la etiqueta fill en el selector de svg */
+.icono {
+  width: 2rem;
+}
+.icono svg{
+  fill: white;
+}
+
+/* Para darle distancia  a los iconos del footer */
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+/* Bueanas practicas el elmento antes de la clase */
+.content{
+  width: 1000px;
+  margin: auto;
+  color:#000F08;
+}
+
+.content h1{
+  text-align: left;
+  font-size: 2.8125rem;
+  padding: 100px;
+
+}
+.content h2{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.content p{
+  font-size: 1.5625rem;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.content img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+/* Para poner iconos en  nuestra pagina usar FONT AWESOME
+entramos en l pagina y en su nav click en STAR
+lo 1° es copiar el codigo que sale en el head , sobre el link del css
+luego buscamos el icono que necesitamos , en buscar icono
+3° copiamos el link del icono  dentro del footer donde teniamos el link a gitub (el texto
+4° añadir el tamaño usando el mismo font aweasome usando en el apartado de size icons, copiamos uno de los fa-5x y se los agregamos a las clases que ya teniamos copiadas )*/
+
+
+/* Iconos para la pagina .. iconos svg imagenes vectoriales */
+/* Para asignar el tamaño a las fuentes no usar pixeles, usar rem y em, 16px tienen los navegadores prederterminado para el font size */
+
+
+
+
+
+
+
+
+
+
+
+
+/* h2{
+
+}
+
+.verde {
+
+}
+.centrado {
+
+}
+#subtitulo{
+
+} */
